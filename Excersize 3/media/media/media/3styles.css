@@ -1,0 +1,92 @@
+
+/* Page background and general layout */ 
+body{ 
+background-color:gainsboro; /* Grey background colour */ 
+margin:0; /* Removes margin from around the page */ 
+} 
+
+/* Main page title */ 
+h1{ 
+text-align:center; /* Align text in the middle */ 
+font-size:90px; /* Heading size */ 
+} 
+
+/* Navigation bar styling */ 
+nav{ 
+display:flex; /* Navbar structure using flexbox */ 
+justify-content:center; /* Center links horizontally */ 
+gap:20px; /* Adds spacing between the links */ 
+font-size:24px; /* Size of the text */ 
+font-weight:bold; /* Bold text */ 
+margin-bottom:20px; /* Adds space below the navbar */ 
+} 
+
+/* Styling navigation links */ 
+nav a{ 
+text-decoration:underline; /* Adds underline */ 
+color: #0000EE; /* Colour of the links */ 
+font-size:24px; 
+padding: 5px 10px; /* Space between link text and inside edge of link */
+} 
+
+/* Position of top section */ 
+.topofpage{ 
+padding-left:20px; 
+padding-right:20px; 
+} 
+
+/* Position of cow image */ 
+#cow{ 
+float:right; /* Places picture to the right */ 
+width:400px; /* Width of picture */ 
+margin: 0 0 20px 30px; /* Adds spacing around the image */
+} 
+
+/* Paragraph font sizing and layout */ 
+p{ 
+font-size:28px; /* Increases size of font */ 
+text-align:justify; /* Align both sides of text */ 
+padding-left:20px; 
+padding-right:20px; 
+} 
+
+/* Gallery position */ 
+.gallery{ 
+display:grid; 
+grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */ 
+grid-auto-rows:300px; /* Sets all image height to 300px */ 
+} 
+
+/* Makes container hide anything outside of media */ 
+.media{ 
+overflow:hidden; 
+} 
+
+/* Forces image and video to fit inside media containers */
+.media img, 
+.media video{ 
+width:100%; 
+height:100%; 
+object-fit:cover; 
+} 
+
+/* Makes first image span 2 columns */ 
+.media:nth-child(1){ 
+grid-column:span 2; 
+} 
+
+/* Makes fourth image span 2 columns */ 
+.media:nth-child(4){ 
+grid-column:span 2; 
+} 
+
+/* Makes fifth image span 2 columns */ 
+.media:nth-child(5){ 
+grid-column:span 2; 
+} 
+
+/* Zooms in on images when hovered over */ 
+.media img:hover{ 
+transform:scale(1.05); 
+transition:0.3s; 
+} 

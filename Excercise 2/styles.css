@@ -1,0 +1,90 @@
+/* Reset browser styles so everything starts at zero margin and padding */
+* { 
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+} 
+
+/* Main Card Settings (the entire page background / color and font settings)
+----------------------------------------------*/ 
+body { 
+background-color: #bfbfbf; /* Sets background color around card to grey */
+
+font-family: Arial, Helvetica, sans-serif; /* Sets font family for body text */
+color: #222; /* Sets text color to dark grey */ 
+
+line-height: 1.7; /* Makes spacing between lines 1.7 times larger than font size */
+
+display: flex; /* flex align horizontally */ 
+justify-content: center; /* centers card on page */ 
+
+padding: 60px 0; /* adds spacing above and below card */
+} 
+
+/* Card settings (page background)*/ 
+.card { 
+background-color: #efefef; /* Sets background color inside card to light grey */
+width: 75%; /* Sets card width to be 75% of screen size */
+
+max-width: 900px; /* Sets maximum width of card so isn't too stretched on large screens*/
+
+padding: 70px 70px; /* Adds padding inside card around text */
+
+border-radius: 40px; /* Rounds corners of card*/ 
+} 
+
+/* Main Title */ 
+.main-title { 
+font-family: 'Anton', sans-serif; /* Uses Google Font Anton for large heading text */
+font-size: 110px; /* Makes size very large so title is eye catching */
+
+text-align: center; /* Centers title */ 
+
+color: #3f8f10; /* Sets color of title to green */ 
+letter-spacing: 1px; /* Adds spacing between characters */ 
+
+margin-bottom: 40px; /* Adds spacing below title */ 
+} 
+
+/* Section Titles */ 
+.section-title { 
+font-family: 'Anton', sans-serif; /* Applies Google Font Anton to section titles */
+font-size: 65px; /* Makes size large */ 
+
+text-align: center; /* centers titles */ 
+
+color: #3f8f10; /* Sets color to green */ 
+
+letter-spacing: 1px; /* Adds spacing between characters */ 
+
+margin: 50px 0 25px 0; /* Adds spacing above and below titles */
+} 
+
+/* Paragraph font size */ 
+p { 
+font-size: 18px; /* Makes size 18px */ 
+
+margin-bottom: 22px; /* Adds spacing below paragraphs */ 
+} 
+
+/* Box used to highlight information */ 
+.highlight-box { 
+background-color: #3f8f10; /* Sets background to green */ 
+
+color: white; /* Sets font color to white */ 
+
+padding: 35px; /* Adds spacing inside box */ 
+border-radius: 30px; /* Rounds corners of box */ 
+
+margin: 50px 0; /* Adds spacing above and below box */
+} 
+
+/* Title inside highlight box*/ 
+.highlight-box h3 { 
+font-family: 'Anton', sans-serif; /* Applies Google Font Anton */ 
+font-size: 50px; /* Makes size large */ 
+
+letter-spacing: 1px; /* Adds spacing between characters */ 
+
+margin-bottom: 15px; /* Adds spacing below heading */ 
+} 

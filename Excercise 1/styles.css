@@ -1,0 +1,79 @@
+/* Base Page */
+/* Basic styling applied to the whole webpage */
+body {
+    margin: 0;                 /* Removes default page margin */
+    font-family: "Times New Roman", Times, serif; /* Sets the main font */
+    background-color: #e6e6e6; /* Light grey background */
+    color: black;              /* Default text colour */
+    font-size: 16px;           /* Standard text size */
+    line-height: 1.3;          /* Space between lines of text */
+}
+
+/* Header */
+/* Styles the top header section */
+.site-header {
+    background-color: #cfcfcf; /* Grey background */
+    padding: 15px 25px;        /* Space inside the header */
+}
+
+/* Main website title */
+.site-header h1 {
+    margin: 0 0 8px 0;         /* Space below the title */
+    font-size: 38px;           /* Large heading text */
+}
+
+/* Navigation */
+/* Styles the links in the navigation bar */
+nav a {
+    margin-right: 10px;        /* Space between links */
+    font-size: 16px;           /* Link text size */
+    color: blue;               /* Link colour */
+    text-decoration: underline; /* Underline links */
+}
+
+/* Main Content */
+/* Styles the main page content area */
+main {
+    padding: 20px 30px;        /* Space around the content */
+}
+
+/* Recipe title */
+h2 {
+    font-size: 28px;           /* Medium heading size */
+    margin: 8px 0;             /* Space above and below */
+}
+
+/* Recipe description text */
+.description {
+    margin: 5px 0 15px 0;      /* Space around description */
+}
+
+/* Subheadings such as Ingredients and Instructions */
+h3 {
+    font-size: 22px;
+    margin: 15px 0 8px 0;
+}
+
+/* Lists */
+/* Styles for ingredient and instruction lists */
+ul,
+ol {
+    margin: 5px 0 15px 20px;   /* Indentation and spacing */
+    padding: 0;
+}
+
+/* Grey Note Box */
+/* Styles the recipe tip box */
+.note {
+    background-color: #cfcfcf; /* Grey background */
+    padding: 10px 15px;        /* Space inside the box */
+    margin: 15px 0;            /* Space above and below */
+    line-height: 1.25;         /* Slightly tighter text spacing */
+}
+
+/* Footer */
+/* Styles the bottom footer section */
+.site-footer {
+    background-color: #cfcfcf;
+    padding: 15px 25px;
+}

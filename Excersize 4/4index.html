@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Tells the browser we are using HTML5 -->
+
+<html lang="en">
+<!-- Tells browser that this is an HTML document and in what language -->
+
+<head>
+<!-- Contains information about the page. (Doesn't display content!) -->
+<meta charset="UTF-8">
+<!-- Allows us to use special characters and display text properly -->
+
+<title>The Wondering Photographer | Travel Prints</title>
+<!-- Title that appears on tab -->
+
+<link rel="stylesheet" href="4styles.css">
+<!-- Links to our external CSS file that styles our page -->
+</head>
+
+<body>
+
+<header>
+<!-- Typically used for the top of the page, containing logos/nav -->
+
+<img src="./gallery/TheDivider.png" class="divider">
+<!-- Divider image that we stored in our gallery folder -->
+
+<!-- Basket Icon -->
+<img src="./gallery/trolley.png" class="basket" alt="Shopping Basket">
+<!-- Shopping basket icon. Always include an alt attribute to improve accessability for screen readers-->
+
+<nav>
+<!-- Container for our site links -->
+<ul>
+<!-- Unordered list used to give structure to our links -->
+<li><a href="./home.html">Home</a></li>
+<!-- Link to Home -->
+<li><a href="./blog.html">Blog</a></li>
+<!-- Link to Blog -->
+<li><a href="./about.html">About Me</a></li>
+<!-- Link to About -->
+</ul>
+</nav>
+
+</header>
+
+<main>
+<!-- Contains all content for our page -->
+<section class="gallery">
+<!-- Our section of photo cards -->
+<article class="photo-card">
+<!-- Photo item 1 -->
+
+<img src="./gallery/OceanPhoto.jpg"
+alt="Image of the white cliffs of Greenland. The ocean is blue and calm. The sky is pink and orange from a sunset. ">
+<!-- Image needs an alt attribute too! This provides accessability for screen readers-->
+
+<p>This was from a fabulous trip to the coast of Greenland with my family. The water was lovely—but very cold!</p>
+
+<button type="button" aria-label="Add Greenland Coast print to basket">Add to Basket</button>
+<!-- Consider using ARIA attributes to help screen readers -->
+</article>
+
+<article class="photo-card">
+<!-- Photo item 2 -->
+<img src="./gallery/BridgePhoto.jpg"
+alt="The red towers of the Golden Gate Bridge from a low angle. Background shows a clear blue sky. ">
+
+<p>A picture of the Golden Gate Bridge. New York! New York! </p>
+
+<button type="button" aria-label="Add Golden Gate Bridge print to basket">Add to Basket</button>
+</article>
+
+<article class="photo-card">
+<!-- Photo item 3 -->
+<img src="./gallery/ValleyPhoto.jpg"
+alt="Wide river valley in Greenland. The mountains surrounding the valley are steep. In the river valley we can see where a glacier sat. ">
+
+<p>Another great photo from Greenland. It's a river valley where a glacier used to be.</p>
+
+<button type="button" aria-label="Add Glacier Valley print to basket">Add to Basket</button>
+</article>
+
+<article class="photo-card">
+<!-- Photo item 4 -->
+<img src="./gallery/WaterfallPhoto.jpg"
+alt="Wide river valley in Greenland. The mountains surrounding the valley are steep. In the river valley we can see where a glacier sat. ">
+
+<p>The waterfall made such a lovely sound. I could have fallen asleep!</p>
+
+<button type="button" aria-label="Add Waterfall print to basket">Add to Basket</button>
+</article>
+
+</section>
+</main>
+
+<footer>
+<!-- Bottom of webpage -->
+<p>Copyright The Wondering Photographer 2018.</p>
+<!-- Copyright -->
+</footer>
+
+</body>
+
+</html> 
