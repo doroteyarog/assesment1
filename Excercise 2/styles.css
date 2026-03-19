@@ -1,6 +1,6 @@
 /* Reset browser styles so everything starts at zero margin and padding */
 * { 
-margin: 0; 
+margin: 0;  
 padding: 0; 
 box-sizing: border-box; 
 } 
