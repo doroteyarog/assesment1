@@ -1,6 +1,6 @@
 /* Base Page */
 /* Basic styling applied to the whole webpage */
-body {
+body { 
     margin: 0;                 /* Removes default page margin */
     font-family: "Times New Roman", Times, serif; /* Sets the main font */
     background-color: #e6e6e6; /* Light grey background */
